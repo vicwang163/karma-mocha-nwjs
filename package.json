@@ -1,6 +1,6 @@
 {
-  "name": "karma-mocha",
-  "version": "1.3.0",
+  "name": "karma-mocha-nwjs",
+  "version": "0.0.1",
   "description": "A Karma plugin. Adapter for Mocha testing framework.",
   "main": "lib/index.js",
   "sharedKarmaFiles": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-mocha.git"
+    "url": "git@github.com:vicwang163/karma-mocha-nwjs.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-adapter",
     "mocha"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "vic wang",
   "dependencies": {
     "minimist": "1.2.0"
   },
@@ -84,7 +84,5 @@
     "James Morris <jamie@maloric.com>",
     "Jason Divock <jdivock@gmail.com>",
     "Jeff Jagoda <jeffrey.jagoda@gmail.com>"
-  ],
-  "_from": "karma-mocha@1.3.0",
-  "_resolved": "http://registry.npm.taobao.org/karma-mocha/download/karma-mocha-1.3.0.tgz"
+  ]
 }
